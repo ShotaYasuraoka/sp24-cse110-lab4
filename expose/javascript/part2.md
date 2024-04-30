@@ -49,4 +49,4 @@ F. true. Boolean(2) is true and the two operands have the same type and value.
 
 17. [2,4,6] because inside the for loop of modifyArray, each element of the array is multiplied by two by the doSomething function, which is called by the callback.
 
-18. 1 4 3 2 because functions inside the setTimeout are operated later depending on the set time.
+19. 1 4 3 2 because functions inside the setTimeout are operated later depending on the set time.
