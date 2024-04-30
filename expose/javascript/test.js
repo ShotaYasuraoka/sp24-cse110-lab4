@@ -1,11 +1,8 @@
-let student = {
-    name: 'Sarah',
-    major: 'Computer Science',
-    'Grad Year': '2022',
-    greeting: function() { console.log('Hello!'); },
-    'Favorite Teacher' : {
-        name: 'Thomas Powell',
-        course: 'CSE110'
-    },
-    courseLoad: ['CSE 110', 'CSE 134', 'VIS 41']
-};
+function printNums() {
+    console.log(1);
+    setTimeout(function() {console.log(2); },  1000);
+    setTimeout(function() {console.log(3); }, 0);
+    console.log(4);
+}
+
+printNums();
